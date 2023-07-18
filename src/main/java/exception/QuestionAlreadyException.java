@@ -2,6 +2,9 @@ package exception;
 
 public class QuestionAlreadyException extends RuntimeException {
     public QuestionAlreadyException() {
+    }
+
+    public QuestionAlreadyException(String message) {
         super(message);
     }
 
