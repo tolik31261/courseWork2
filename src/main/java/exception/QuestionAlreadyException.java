@@ -1,5 +1,6 @@
 package exception;
 
+
 public class QuestionAlreadyException extends RuntimeException {
     public QuestionAlreadyException() {
     }
