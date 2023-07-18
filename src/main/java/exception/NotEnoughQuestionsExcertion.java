@@ -5,9 +5,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class NotEnoughQuestionsExcertion extends RuntimeException {
-    public NotEnoughQuestionsExcertion() {
-    }
-
     public NotEnoughQuestionsExcertion(String message) {
         super(message);
     }
